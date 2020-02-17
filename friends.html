@@ -11,6 +11,7 @@
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
+    <!--상단 상태바 -->
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -23,6 +24,8 @@
         <i class="fas fa-battery-full"></i>
       </div>
     </div>
+
+    <!-- 상단 헤더 -->
     <header class="header">
       <div class="header__header-column">
         <h1 class="header__title">Friends</h1>
@@ -36,6 +39,66 @@
         </span>
       </div>
     </header>
+
+    <!--프로필 및 친구 목록 리스트-->
+    <main class="friends">
+      <!--자기 자신 프로필 -->
+      <header class="friends_header">
+        <div class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img
+              src="image/starButterfly_2.jpg"
+              class="g-avater friend__avatar"
+            />
+            <div class="friend__content">
+              <span class="friend__name">Sunny</span>
+              <span class="friend__status">Rock N Roll!</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!--plus 친구 프로필 -->
+      <div class="friends__plus">
+        <h5 class="friends__title">Plus friend</h5>
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img
+              src="image/starButterfly_2.jpg"
+              class="g-avater friend__avatar"
+            />
+            <div class="friend__content">
+              <span class="friend__name">Plus Friend</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--일반 친구 목록 -->
+      <ul class="friends__list">
+        <h5 class="friends__title">Friends 14</h5>
+        <li class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img
+              src="image/starButterfly_2.jpg"
+              class="g-avater friend__avatar"
+            />
+            <div class="friend__content">
+              <span class="friend__name">Sunny</span>
+              <span class="friend__status">Rock N Roll!</span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>Oasis-wonderwall</span>
+              <i class="fas fa-play"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <!-- 하단 네비게이션바 -->
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
