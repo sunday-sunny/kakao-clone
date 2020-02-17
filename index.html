@@ -11,6 +11,7 @@
     <title>Chat | Kakao Clone</title>
   </head>
   <body>
+    <!--상단 상태바 -->
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -23,6 +24,8 @@
         <i class="fas fa-battery-full"></i>
       </div>
     </div>
+
+    <!-- 상단 헤더 -->
     <header class="header">
       <div class="header__header-column">
         <h1 class="header__title">Chats</h1>
@@ -40,23 +43,30 @@
       </div>
     </header>
 
+    <!-- 채팅방 목록 -->
     <main class="chats">
       <ul class="chats__list">
         <li class="chats_chat chat">
-          <div class="chat__column">
-            <img class="chat_avatar g-avatar" src="image/starButterfly_2.jpg" />
-            <div class="chat__content">
-              <span class="chat_username">Sunny</span>
-              <span class="chat__preview">I'm bussy!!</span>
+          <a href="chat.html">
+            <div class="chat__column">
+              <img
+                class="chat_avatar g-avatar"
+                src="image/starButterfly_2.jpg"
+              />
+              <div class="chat__content">
+                <span class="chat_username">Sunny</span>
+                <span class="chat__preview">I'm bussy!!</span>
+              </div>
             </div>
-          </div>
-          <div class="chat__column">
-            <span class="chat__timestamp">Yesterday</span>
-          </div>
+            <div class="chat__column">
+              <span class="chat__timestamp">Yesterday</span>
+            </div>
+          </a>
         </li>
       </ul>
     </main>
 
+    <!-- 하단 네비게이션바 -->
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
