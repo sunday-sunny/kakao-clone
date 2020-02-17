@@ -11,6 +11,7 @@
     <title>Find | Kakao Clone</title>
   </head>
   <body>
+    <!--상단 상태바 -->
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -23,6 +24,8 @@
         <i class="fas fa-battery-full"></i>
       </div>
     </div>
+
+    <!-- 상단 헤더 -->
     <header class="header">
       <div class="header__header-column">
         <h1 class="header__title">Find</h1>
@@ -36,6 +39,68 @@
         </span>
       </div>
     </header>
+
+    <!-- 상단 바로가기 아이콘 -->
+    <main class="find">
+      <header class="find_header">
+        <ul class="find__header-list">
+          <!-- OR 코드 아이콘 -->
+          <li class="find_header-btn header-btn">
+            <span class="header-btn_icon">
+              <i class="fas fa-qrcode fa-2x"></i>
+            </span>
+            <span class="header-btn__title">QR Code</span>
+          </li>
+
+          <!-- 친구 추가 아이콘 -->
+          <li class="find_header-btn header-btn">
+            <span class="header-btn_icon">
+              <i class="fas fa-user-plus fa-2x"></i>
+            </span>
+            <span class="header-btn__title">Add by Contacts</span>
+          </li>
+
+          <!-- 아이디로 추가 아이콘 -->
+          <li class="find_header-btn header-btn">
+            <span class="header-btn_icon">
+              <i class="fas fa-passport fa-2x"></i>
+            </span>
+            <span class="header-btn__title">Add by ID</span>
+          </li>
+
+          <!-- 초대하기 아이콘 -->
+          <li class="find_header-btn header-btn">
+            <span class="header-btn_icon">
+              <i class="far fa-envelope fa-2x"></i>
+            </span>
+            <span class="header-btn__title">Invite</span>
+          </li>
+        </ul>
+      </header>
+
+      <!-- 추천 친구 목록 -->
+      <ul class="find_recommended">
+        <h5 class="find__title">Recommended Friends</h5>
+        <li class="find__friend friend friend--lg">
+          <div class="friend__column">
+            <img
+              src="image/starButterfly_2.jpg"
+              class="g-avater friend__avatar"
+            />
+            <div class="friend__content">
+              <span class="friend__name">Sunny</span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__add-btn">
+              <i class="fas fa-user-plus"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <!-- 하단 네비게이션바 -->
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
