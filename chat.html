@@ -101,23 +101,20 @@
     </main>
 
     <!-- 하단 입력 부분-->
-    <div class="chat__write">
+    <div class="chat__write--container">
       <!-- 추가 input -->
-      <div class="chat__write-column">
+      <input
+        type="text"
+        class="chat__write"
+        placeholder="send message"
+        class="chat__write-input"
+      />
+
+      <!-- write icon -->
+      <div class="chat__icon-left chat__icon">
         <i class="far fa-plus-square"></i>
       </div>
-
-      <!-- message input -->
-      <div class="chat__write-column">
-        <input
-          type="text"
-          placeholder="send message"
-          class="chat__write-input"
-        />
-      </div>
-
-      <!-- 이모티콘 및 보이스 입력 부분 -->
-      <div class="chat__write-column">
+      <div class="chat__icon-right chat__icon">
         <span class="chat__write-icon">
           <i class="far fa-smile-wink"></i>
         </span>
